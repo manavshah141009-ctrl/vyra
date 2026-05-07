@@ -24,7 +24,7 @@ This project, including its code, structure, design, and architectural patterns,
 - **No part of this project may be used, copied, modified, or distributed without express prior written permission.**
 - Unauthorized use of the structure or design is strictly prohibited.
 
-For permission requests, please contact: [legal@vyra.ai](mailto:legal@vyra.ai)
+For permission requests, please contact: [manavshah141009@gmail.com](mailto:manavshah141009@gmail.com)
 
 ---
 
