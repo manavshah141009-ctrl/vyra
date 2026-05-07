@@ -12,9 +12,9 @@ export const Navbar = () => {
       animate={{ y: 0, opacity: 1 }}
       className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-4xl px-4"
     >
-      <div className="glass rounded-full px-6 py-3 flex items-center justify-between border border-white/10 shadow-2xl">
+      <div className="glass rounded-full px-4 md:px-6 py-2.5 md:py-3 flex items-center justify-between border border-white/10 shadow-2xl">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-xl font-display font-bold tracking-tighter">VYRA</span>
+          <span className="text-lg md:text-xl font-display font-bold tracking-tighter">VYRA</span>
         </Link>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">

@@ -17,12 +17,12 @@ export const Waitlist = () => {
 
   return (
     <section id="waitlist" className="py-32 px-4">
-      <div className="max-w-4xl mx-auto glass p-12 md:p-20 rounded-[3rem] border border-white/10 relative overflow-hidden group">
+      <div className="max-w-4xl mx-auto glass p-8 md:p-20 rounded-[2.5rem] md:rounded-[3rem] border border-white/10 relative overflow-hidden group">
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 blur-[80px] -z-10 group-hover:bg-indigo-600/20 transition-colors duration-1000" />
         
         <div className="relative z-10 text-center">
-          <h2 className="text-4xl md:text-6xl font-display font-bold mb-8">Ready to skip the apps?</h2>
-          <p className="text-xl text-white/50 mb-12 max-w-xl mx-auto">
+          <h2 className="text-3xl md:text-6xl font-display font-bold mb-8">Ready to skip the apps?</h2>
+          <p className="text-lg md:text-xl text-white/50 mb-12 max-w-xl mx-auto">
             Join 10,000+ early adopters and be the first to experience the future of commerce in India.
           </p>
 

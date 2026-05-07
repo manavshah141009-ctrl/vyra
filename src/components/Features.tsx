@@ -47,8 +47,8 @@ export const Features = () => {
   return (
     <section id="features" className="py-32 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 italic">Built for the AI-Native Generation</h2>
+        <div className="text-center mb-20 px-4">
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-6 italic">Built for the AI-Native Generation</h2>
           <p className="text-white/60 text-lg">Powerful features wrapped in a simple chat interface.</p>
         </div>
 

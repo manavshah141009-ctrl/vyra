@@ -29,7 +29,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-6xl md:text-8xl font-display font-bold tracking-tight mb-8 leading-[0.9]"
+          className="text-4xl sm:text-6xl md:text-8xl font-display font-bold tracking-tight mb-8 leading-[1] md:leading-[0.9]"
         >
           The Future of Commerce is <span className="text-indigo-500">Conversational.</span>
         </motion.h1>
@@ -38,7 +38,7 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-xl md:text-2xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-lg md:text-2xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed px-4"
         >
           VYRA is your AI-native commerce assistant. Order food, groceries, and more through natural language on WhatsApp. 
           Powered by advanced LLMs, integrated with India&apos;s leading APIs.
@@ -48,13 +48,13 @@ export const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4"
         >
-          <button className="group relative bg-white text-black px-8 py-4 rounded-2xl font-bold flex items-center gap-2 hover:scale-105 transition-transform">
+          <button className="w-full sm:w-auto group relative bg-white text-black px-8 py-4 rounded-2xl font-bold flex items-center justify-center gap-2 hover:scale-105 transition-transform">
             Start Ordering
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
-          <button className="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 font-bold hover:bg-white/10 transition-colors">
+          <button className="w-full sm:w-auto px-8 py-4 rounded-2xl border border-white/10 bg-white/5 font-bold hover:bg-white/10 transition-colors">
             Watch Demo
           </button>
         </motion.div>
